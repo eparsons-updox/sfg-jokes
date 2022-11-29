@@ -6,8 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SfgJokesApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SfgJokesApplication.class, args);
-	}
+    public static void main(String[] args) {
+        System.out.println("Hello!");
+        SpringApplication.run(SfgJokesApplication.class, args);
+    }
 
 }
